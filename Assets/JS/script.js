@@ -45,6 +45,22 @@ $(document).ready(function() {
         )
     });
 
+    $("#nosotros").click(function() {
+        $("#cardCarrusel").css (
+            {
+                "display": "block"
+            }
+        )
+    });
+    $(".close").click(function() {
+        $("#cardCarrusel").css (
+            {
+                "display": "none"
+            }
+        )
+    });
+
+
     //Mensaje al enviar formulario de reserva:
     $("#botonf2").click(function() {
         var nombreF2 = $("#nombre2").val();

@@ -24,7 +24,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Nuestros Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Sobre Nosotros</a>
+                        <a id="nosotros" class="nav-link active" href="#">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#comuniq">Comuniquemonos</a>
@@ -36,12 +36,52 @@
             </div>
         </div>
     </nav>
+    <!-- MODAL INFO SOBRE NOSOTROS -->
+    <div id="cardCarrusel" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner bg-dark">
+                    <div class="carousel-item active text-light" data-bs-interval="10000">
+                        <h5 class="mb-3">Nimrodel Pub Restaurant</h5>
+                        <p>“Nimrodel Significa “dama de la cueva blanca”. Fue una elfa silvana que vivió durante la Tercera Edad del Sol en el bosque de Lothlórien. En honor a su nombre, se acuña Nimrodel al río que nace en las Montañas Nubladas”.</p>
+                        <div class="d-flex justify-content-center">
+                            <img src="Assets\img\IMG2.jpg" class="d-block w-50" alt="Nimrodel">
+                        </div>
+                    </div>
+                    <div class="carousel-item text-light mt-5" data-bs-interval="2000">
+                        <p>“Nimrodel Pub Restaurant es un oasis de calma y diversión, lleno de rincones acogedores en donde se resalta la belleza de su decoración élfica. Es un lugar ideal para visitar solo o acompañado, disfrutar una tarde con amigos, terminar el día después del trabajo o almorzar con tu familia. Puedes probar nuestras tradicionales tablas, en todas sus variedades y que nos han otorgado reconocimiento dentro de la cultura gastronómica. También puedes disfrutar nuestras cervezas de fabricación propia, con sabores que te llevarán a un mágico mundo.”</p>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center mb-5">
+                            <img src="Assets\img\IMG1.jpg" class="d-block w-50" alt="Nimrodel">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- TITULOS -->
     <div class="p-3">
         <h1 class="text-center text-danger">Nimrodel Pub Restaurant</h1>        
     </div>
     <div class="container p-3">
         <h2 class="text-center">Destacados de la semana</h2>
     </div>
+    <!-- Cards con platos -->
     <main class="container mb-4">
         <div class="row justify-content-evenly ">
             <div id="card1" class="card col-xl-4 col-lg-4 col-md-6 col-sm-9 col-12 p-2 mb-3" style="width: 18rem;">
@@ -127,6 +167,7 @@
         </form>
     </section>
     <br>
+    <!-- FORMULARIOS -->
     <section class="row p-4 form2">
         <form class="container col-xl-4 col-lg-5 col-md-6 col-sm-7 col-10 bg-secondary rounded" action="">
             <h3 class="text-light pt-2" id="reserv" >Reservas</h3>
@@ -159,6 +200,7 @@
             </div>
         </form>
     </section>
+    <!-- CARRUSEL -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -185,6 +227,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+    <!-- FOOTER -->
     <footer class="d-flex align-items-center flex-column bd-highlight mb-3">
         <div class="mt-auto p-2 bd-highlight">
             <p class="text-center text-light">Todos los derechos reservados &#174</p>

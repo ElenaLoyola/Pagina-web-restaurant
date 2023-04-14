@@ -30,7 +30,7 @@ footer {
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: rgb(33 37 41);
     margin: 1% auto; 
     padding: 20px;
     border: 1px solid #888;
@@ -54,4 +54,8 @@ footer {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.carousel-inner {
+    height: 470px;
 }
