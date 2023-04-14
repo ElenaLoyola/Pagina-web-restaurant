@@ -30,7 +30,7 @@ footer {
 }
 
 .modal-content {
-    background-color: rgb(33 37 41);
+    background-color: white;
     margin: 1% auto; 
     padding: 20px;
     border: 1px solid #888;
@@ -40,7 +40,9 @@ footer {
 .modal-content h2 {
     color: rgb(104, 14, 14);
 }
-
+.modal-nosotros {
+    background-color: rgb(33 37 41);
+}
 .close {
     color: #aaa;
     float: right;
